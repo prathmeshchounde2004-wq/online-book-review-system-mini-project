@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;min-height:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container-highest": "#e5e2dd", "on-surface-variant": "#59413a", "inverse-on-surface": "#f3f0eb", "outline": "#8d7168", "on-tertiary-fixed-variant": "#3c475a", "surface-container": "#f0ede9", "tertiary-fixed": "#d8e3fb", "error": "#ba1a1a", "background": "#fcf9f4", "error-container": "#ffdad6", "on-primary": "#ffffff", "on-error-container": "#93000a", "surface-bright": "#fcf9f4", "on-surface": "#1c1c19", "secondary-container": "#fe932c", "surface": "#fcf9f4", "surface-container-high": "#ebe8e3", "on-secondary-fixed-variant": "#6e3900", "on-secondary-fixed": "#2f1500", "on-tertiary-container": "#eaefff", "secondary-fixed-dim": "#ffb77d", "on-primary-container": "#ffece7", "primary": "#9b2f00", "on-secondary": "#ffffff", "on-error": "#ffffff", "surface-variant": "#e5e2dd", "surface-dim": "#dcdad5", "on-tertiary-fixed": "#111c2d", "on-secondary-container": "#663500", "surface-container-lowest": "#ffffff", "tertiary-container": "#626d82", "surface-tint": "#ac3400", "surface-container-low": "#f6f3ee", "tertiary-fixed-dim": "#bcc7de", "on-tertiary": "#ffffff", "primary-container": "#c2410c", "on-primary-fixed-variant": "#832600", "inverse-primary": "#ffb59d", "secondary-fixed": "#ffdcc3", "on-background": "#1c1c19", "secondary": "#904d00", "primary-fixed-dim": "#ffb59d", "outline-variant": "#e1bfb5", "on-primary-fixed": "#390c00", "primary-fixed": "#ffdbd0", "inverse-surface": "#31302d", "tertiary": "#4a5569" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "gutter-mobile": "1rem", "space-md": "1rem", "space-xl": "2.5rem", "space-sm": "0.5rem", "space-xs": "0.25rem", "margin-mobile": "1rem", "margin": "2rem", "gutter": "1.5rem" }, "fontFamily": { "body-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-md": ["Playfair Display"], "label-md": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Playfair Display"], "headline-lg": ["Playfair Display"], "title-md": ["Plus Jakarta Sans"], "headline-sm": ["Playfair Display"], "display-hero": ["Playfair Display"], "label-sm": ["Plus Jakarta Sans"], "display-hero-mobile": ["Playfair Display"] }, "fontSize": { "body-sm": ["12px", {"lineHeight": "18px", "fontWeight": "400"}], "body-lg": ["16px", {"lineHeight": "26px", "fontWeight": "400"}], "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}], "label-md": ["13px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}], "body-md": ["14px", {"lineHeight": "22px", "fontWeight": "400"}], "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}], "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}], "title-md": ["18px", {"lineHeight": "24px", "fontWeight": "600"}], "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "600"}], "display-hero": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}], "label-sm": ["11px", {"lineHeight": "14px", "letterSpacing": "0.05em", "fontWeight": "700"}], "display-hero-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}] } } } }</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter-mobile flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="BookReview Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1XhwrMiTrKGP82BfNUuF145yi-LG_Cnt5u3bS2Ec9wma5yrA4IDX-OLwzk3K0vwJGCpedGL-ZYF0Y7l4y--rOH1zZ7PUWOTx5pPryn5RyRc5cAVaEn2opL-cp-lDdA2RLSi3KyjkB_uSASQKFU8jFLRbVZ8TmMpKx7xnICZize59r4flqGapgpDJ47DuSpw4KUyITtGx2bJ2DrVnWS2gwELZBek7tcDFJ8gJwUwsI25dNF4N6YB9op70A_J"/><div class="flex flex-col justify-center min-w-0"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight truncate leading-none">BookReview</span><span class="font-label-sm text-label-sm text-outline uppercase tracking-wider truncate">Browse</span></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="Search Catalogue" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">search</span></button><button aria-label="Notifications" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors relative" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-primary-container"></span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0 ml-space-xs"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 w-full bg-surface pt-16 pb-24 px-gutter-mobile"><div class="flex flex-col w-full pb-8 space-y-5">
+<!-- Search & Filter Section -->
+<section class="flex flex-col gap-3">
+<!-- Search Bar Card -->
+<form action="browse" class="bg-surface-container-lowest p-2 rounded-xl shadow-sm flex items-center gap-2" method="GET">
+<div class="flex items-center justify-center pl-2 text-outline">
+<span class="material-symbols-outlined text-[22px]">search</span>
+</div>
+<input class="w-full bg-transparent font-body-md text-on-surface placeholder:text-outline focus:outline-none min-w-0 py-1.5" name="query" placeholder="Search title, author, or keyword..." type="search"/>
+<button class="bg-primary text-on-primary font-label-md text-label-md px-4 py-2.5 rounded-lg active:scale-95 transition-all flex items-center justify-center shrink-0 shadow-sm" type="submit">
+        Search
+      </button>
+</form>
+<!-- Genre Chips (Scrollable Strip) -->
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5" id="genreContainer">
+<button class="genre-pill shrink-0 px-3.5 py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm transition-colors" data-genre="all" type="button">
+        All Genres
+      </button>
+<button class="genre-pill shrink-0 px-3.5 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant font-label-md text-label-md hover:bg-surface-container transition-colors" data-genre="tech" type="button">
+        Technology
+      </button>
+<button class="genre-pill shrink-0 px-3.5 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant font-label-md text-label-md hover:bg-surface-container transition-colors" data-genre="science" type="button">
+        Science
+      </button>
+<button class="genre-pill shrink-0 px-3.5 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant font-label-md text-label-md hover:bg-surface-container transition-colors" data-genre="fiction" type="button">
+        Fiction
+      </button>
+<button class="genre-pill shrink-0 px-3.5 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant font-label-md text-label-md hover:bg-surface-container transition-colors" data-genre="mystery" type="button">
+        Mystery
+      </button>
+<button class="genre-pill shrink-0 px-3.5 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant font-label-md text-label-md hover:bg-surface-container transition-colors" data-genre="bio" type="button">
+        Biography
+      </button>
+</div>
+<!-- Sorting & Quick Controls -->
+<div class="flex items-center justify-between gap-2 bg-surface-container-low px-3 py-2 rounded-xl">
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">swap_vert</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Sort by</span>
+</div>
+<div class="relative inline-flex items-center">
+<select class="appearance-none bg-surface-container-lowest text-on-surface font-label-md text-label-md py-1.5 pl-3 pr-8 rounded-lg shadow-sm focus:outline-none cursor-pointer" id="sortSelect" name="sortBy">
+<option selected="" value="highest_rated">Highest Rated</option>
+<option value="most_reviewed">Most Reviewed</option>
+<option value="alpha_asc">Alphabetical (A–Z)</option>
+</select>
+<span class="material-symbols-outlined text-[18px] text-outline pointer-events-none absolute right-2">expand_more</span>
+</div>
+</div>
+</section>
+<!-- Result Metadata Banner -->
+<section class="flex items-center justify-between px-1">
+<div class="flex flex-col">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Curated Catalogue</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Showing 24 Books in Technology &amp; Science</p>
+</div>
+<span class="bg-surface-container text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-full shrink-0">
+      Page 1/4
+    </span>
+</section>
+<!-- Books Listing -->
+<section class="flex flex-col gap-3.5" id="booksGrid">
+<!-- Card 1: Effective Java -->
+<article class="bg-surface-container-lowest rounded-xl p-3 shadow-sm flex gap-3.5 transition-transform active:scale-[0.99]">
+<div class="relative w-24 h-32 shrink-0 rounded-lg overflow-hidden bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Editorial book cover for Effective Java. Dark navy cloth texture with burnt terracotta modern typography, sleek gold leaf accent lines, academic minimalist publishing style, high resolution clean lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaZN2kPGaQ5Q0-gL3NTogbtm338DoKvtqK9zJ325zxagjfpf8XTxN0iIn4rfv4R2YU7VSR2mYWh8J2uLPmRe1IQCBnJk7umq8-wCfYpSIB0H8P6dH1RbpocozXU7WD6vxpkbbnBbHrh40gMbD8OOpfY3OWfe4gFfC79SuSI2suBuRnCUln9xqWhz3kNZTN41npBrqDdiosuS0qRC9jeVxA_sE-bGGLF-VOj1H8hlr1shCsCS3TMrbeaA"/>
+<span class="absolute top-1.5 left-1.5 bg-primary-container text-on-primary-container font-label-sm text-[10px] px-1.5 py-0.5 rounded shadow-sm">
+          Tech
+        </span>
+</div>
+<div class="flex flex-col justify-between min-w-0 flex-1 py-0.5">
+<div>
+<div class="flex items-center gap-1 text-secondary font-label-sm text-label-sm mb-1">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-on-surface">4.9</span>
+<span class="text-outline font-normal">(210 reviews)</span>
+</div>
+<h3 class="font-headline-sm text-[17px] leading-tight text-on-surface line-clamp-2">Effective Java (3rd Edition)</h3>
+<p class="font-body-sm text-body-sm text-outline mt-0.5 truncate">Joshua Bloch</p>
+</div>
+<div class="flex items-center justify-between mt-2 pt-2 bg-surface-container-low/50 rounded-lg px-2">
+<span class="font-label-sm text-label-sm text-tertiary">Hardcover • 412 pp</span>
+<a class="font-label-md text-label-md text-primary font-semibold hover:underline flex items-center gap-0.5" href="book?id=101">
+            Details
+            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 2: Design Patterns -->
+<article class="bg-surface-container-lowest rounded-xl p-3 shadow-sm flex gap-3.5 transition-transform active:scale-[0.99]">
+<div class="relative w-24 h-32 shrink-0 rounded-lg overflow-hidden bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Clothbound vintage engineering textbook cover for Design Patterns Elements of Reusable Object Oriented Software. Subtle geometric blueprint grid, warm off-white archival paper, crimson debossed lettering." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBt0EiAFqp_UbZbLKsLfl8LoaXZn0HImlvKDgQKH_mLxq40bDm1fJGokPh08ILMnM59If8xpWxz-MKp4A7RuRpa7Am7Z_yAX7dHK-Q2eYxg5NWswXLCE0PpPsjYVtVIRdEgdJ_5YdhhK5Mq-8Nwuh-rml8HUrnJQjYF2SjhA7BrL3hb6dbA4RD3FM82FX0lUQ40uP5oqqg_cXii-VCaeqrRb2B12Zn63i4uwCQ9Z6zriQ2GLztQa_gvVQ"/>
+<span class="absolute top-1.5 left-1.5 bg-primary-container text-on-primary-container font-label-sm text-[10px] px-1.5 py-0.5 rounded shadow-sm">
+          Tech
+        </span>
+</div>
+<div class="flex flex-col justify-between min-w-0 flex-1 py-0.5">
+<div>
+<div class="flex items-center gap-1 text-secondary font-label-sm text-label-sm mb-1">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-on-surface">4.8</span>
+<span class="text-outline font-normal">(185 reviews)</span>
+</div>
+<h3 class="font-headline-sm text-[17px] leading-tight text-on-surface line-clamp-2">Design Patterns: Elements of Reusable Object-Oriented Software</h3>
+<p class="font-body-sm text-body-sm text-outline mt-0.5 truncate">Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides</p>
+</div>
+<div class="flex items-center justify-between mt-2 pt-2 bg-surface-container-low/50 rounded-lg px-2">
+<span class="font-label-sm text-label-sm text-tertiary">Classic • 395 pp</span>
+<a class="font-label-md text-label-md text-primary font-semibold hover:underline flex items-center gap-0.5" href="book?id=102">
+            Details
+            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 3: The Silent Patient -->
+<article class="bg-surface-container-lowest rounded-xl p-3 shadow-sm flex gap-3.5 transition-transform active:scale-[0.99]">
+<div class="relative w-24 h-32 shrink-0 rounded-lg overflow-hidden bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Psychological thriller novel cover for The Silent Patient. Moody chiaroscuro portrait partially blurred with smeared oil paint, warm deep shadows, elegant serif title in stark chalk white." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLMTuPNadLU1mtoWc7EmXDCzDbHB90dERkHdVcXlYs8JJmw3Jl-tEwhV-Byh1hGIQrZfIRa7kmuWpQQUE_wN7lWJEul--Wqzyew7OyBgP0vfpYWSl43oBBYQmMZd4LcT-8dHhqmSmyRwpZJB8F5nE9MikgCft1nx9qogQ88d55tpI1hIrMp90uWgXb8fYhgUGyN1rnO1YmuHHOp_Nyz5QPcCOjPZ8rpbnZBKOzlMUZY-B1MictkV37lg"/>
+<span class="absolute top-1.5 left-1.5 bg-secondary text-on-secondary font-label-sm text-[10px] px-1.5 py-0.5 rounded shadow-sm">
+          Mystery
+        </span>
+</div>
+<div class="flex flex-col justify-between min-w-0 flex-1 py-0.5">
+<div>
+<div class="flex items-center gap-1 text-secondary font-label-sm text-label-sm mb-1">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-on-surface">4.6</span>
+<span class="text-outline font-normal">(94 reviews)</span>
+</div>
+<h3 class="font-headline-sm text-[17px] leading-tight text-on-surface line-clamp-2">The Silent Patient</h3>
+<p class="font-body-sm text-body-sm text-outline mt-0.5 truncate">Alex Michaelides</p>
+</div>
+<div class="flex items-center justify-between mt-2 pt-2 bg-surface-container-low/50 rounded-lg px-2">
+<span class="font-label-sm text-label-sm text-tertiary">Paperback • 336 pp</span>
+<a class="font-label-md text-label-md text-primary font-semibold hover:underline flex items-center gap-0.5" href="book?id=103">
+            Details
+            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 4: Cosmos -->
+<article class="bg-surface-container-lowest rounded-xl p-3 shadow-sm flex gap-3.5 transition-transform active:scale-[0.99]">
+<div class="relative w-24 h-32 shrink-0 rounded-lg overflow-hidden bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Literary hardcover edition of Cosmos by Carl Sagan. Deep indigo space nebula with shimmering warm stardust trails, golden foil constellation lines, tactile cloth texture aesthetic, museum archival print." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXstHnQL-zF8s0z0Gq7DJtMQN-OIcb6RU6mvCy9zJYENAP3BH3usg7uWY9CPJMoOb-jxgPz0RZqoqGtSlUwRL430vGpWWnbir3SangIrDv6PbFA-5H2QmL8kVquxUBClXByW065jNtgdult3OmzIVWNLIthlq1qL8zC51tujY1m45AwSf_T6nVKzt9pBRiOcTo3NtLqLhVICejClwszNSJaY8s-X5_hRQGal6uEia_ljIWngo4ZzyaXQ"/>
+<span class="absolute top-1.5 left-1.5 bg-tertiary-container text-on-tertiary-container font-label-sm text-[10px] px-1.5 py-0.5 rounded shadow-sm">
+          Science
+        </span>
+</div>
+<div class="flex flex-col justify-between min-w-0 flex-1 py-0.5">
+<div>
+<div class="flex items-center gap-1 text-secondary font-label-sm text-label-sm mb-1">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-on-surface">4.9</span>
+<span class="text-outline font-normal">(310 reviews)</span>
+</div>
+<h3 class="font-headline-sm text-[17px] leading-tight text-on-surface line-clamp-2">Cosmos</h3>
+<p class="font-body-sm text-body-sm text-outline mt-0.5 truncate">Carl Sagan</p>
+</div>
+<div class="flex items-center justify-between mt-2 pt-2 bg-surface-container-low/50 rounded-lg px-2">
+<span class="font-label-sm text-label-sm text-tertiary">Illustrated • 384 pp</span>
+<a class="font-label-md text-label-md text-primary font-semibold hover:underline flex items-center gap-0.5" href="book?id=104">
+            Details
+            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 5: Steve Jobs -->
+<article class="bg-surface-container-lowest rounded-xl p-3 shadow-sm flex gap-3.5 transition-transform active:scale-[0.99]">
+<div class="relative w-24 h-32 shrink-0 rounded-lg overflow-hidden bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Minimalist iconic monochrome biography book cover for Steve Jobs. High-contrast portraiture, warm matte cream background, stark modern typography with terracotta spine detail, editorial monograph aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJPOHpK2IjOR7mfmgLGu2ZMFAJ7N7RQt2WCwqdeLofzC9y9gbmPVWVcDNlmIdSxt6Awv_nsmfEm5CXkDP09uPXNdcc4ZofKnxsjUhiV5CyKbXBvc7tPn-RzSyTbChQQYsKXfDP4-coa4jt7QUJwc6IeF8cUc1R1q4N1eG2DwL7VEz7tkqmdAHoIKV04hoyxZdJfp35zQWGCVBi7GwxBFsjh5bmk69QZettlUPg9BQOlmtC1E7cLx_a7A"/>
+<span class="absolute top-1.5 left-1.5 bg-outline text-on-primary font-label-sm text-[10px] px-1.5 py-0.5 rounded shadow-sm">
+          Biography
+        </span>
+</div>
+<div class="flex flex-col justify-between min-w-0 flex-1 py-0.5">
+<div>
+<div class="flex items-center gap-1 text-secondary font-label-sm text-label-sm mb-1">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-on-surface">4.7</span>
+<span class="text-outline font-normal">(156 reviews)</span>
+</div>
+<h3 class="font-headline-sm text-[17px] leading-tight text-on-surface line-clamp-2">Steve Jobs</h3>
+<p class="font-body-sm text-body-sm text-outline mt-0.5 truncate">Walter Isaacson</p>
+</div>
+<div class="flex items-center justify-between mt-2 pt-2 bg-surface-container-low/50 rounded-lg px-2">
+<span class="font-label-sm text-label-sm text-tertiary">Hardcover • 656 pp</span>
+<a class="font-label-md text-label-md text-primary font-semibold hover:underline flex items-center gap-0.5" href="book?id=105">
+            Details
+            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 6: 1984 -->
+<article class="bg-surface-container-lowest rounded-xl p-3 shadow-sm flex gap-3.5 transition-transform active:scale-[0.99]">
+<div class="relative w-24 h-32 shrink-0 rounded-lg overflow-hidden bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Dystopian literary novel cover for 1984 by George Orwell. Stylized geometric watchful eye motif, bold constructivist layout with deep terracotta and weathered cream newsprint background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcB-xGgoR5pK9-gcdQphF48tAK_iwkRh5NnMXFXLiJYvjXJCaprdgSLLOA-zyleZAccg8PpdLhuGgMiZg3My5sBgkOer_PhtSaa3_MyyIWoSBYfnE9xI3x046DwLKAe-XJjYlw1oC5-VyeLhZXLLNLfAVB2k5I1pjBKs6xQdmmXtUhSrA8WfDdI0dBfgBJxKVckEHHtdTGkcMEa5eyanSJ_YZICnweCQVgM1Mnt483Rservao9UAXSkQ"/>
+<span class="absolute top-1.5 left-1.5 bg-on-tertiary-fixed-variant text-on-tertiary font-label-sm text-[10px] px-1.5 py-0.5 rounded shadow-sm">
+          Fiction
+        </span>
+</div>
+<div class="flex flex-col justify-between min-w-0 flex-1 py-0.5">
+<div>
+<div class="flex items-center gap-1 text-secondary font-label-sm text-label-sm mb-1">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-on-surface">4.8</span>
+<span class="text-outline font-normal">(420 reviews)</span>
+</div>
+<h3 class="font-headline-sm text-[17px] leading-tight text-on-surface line-clamp-2">1984</h3>
+<p class="font-body-sm text-body-sm text-outline mt-0.5 truncate">George Orwell</p>
+</div>
+<div class="flex items-center justify-between mt-2 pt-2 bg-surface-container-low/50 rounded-lg px-2">
+<span class="font-label-sm text-label-sm text-tertiary">Pocket Edition • 328 pp</span>
+<a class="font-label-md text-label-md text-primary font-semibold hover:underline flex items-center gap-0.5" href="book?id=106">
+            Details
+            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+</section>
+<!-- Pagination Controls for Server-Side Architecture -->
+<nav aria-label="Catalog Pagination" class="mt-4 flex items-center justify-between bg-surface-container-lowest p-2.5 rounded-xl shadow-sm">
+<a aria-disabled="true" class="inline-flex items-center gap-1 px-3 py-2 rounded-lg bg-surface-container text-outline opacity-60 pointer-events-none font-label-md text-label-md" href="browse?page=1">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+<span>Previous</span>
+</a>
+<div class="flex items-center gap-1">
+<span class="w-8 h-8 rounded-lg bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center font-bold shadow-sm">1</span>
+<a class="w-8 h-8 rounded-lg bg-surface-container-low text-on-surface-variant hover:bg-surface-container font-label-md text-label-md flex items-center justify-center transition-colors" href="browse?page=2">2</a>
+<a class="w-8 h-8 rounded-lg bg-surface-container-low text-on-surface-variant hover:bg-surface-container font-label-md text-label-md flex items-center justify-center transition-colors" href="browse?page=3">3</a>
+<span class="text-outline px-0.5">…</span>
+<a class="w-8 h-8 rounded-lg bg-surface-container-low text-on-surface-variant hover:bg-surface-container font-label-md text-label-md flex items-center justify-center transition-colors" href="browse?page=4">4</a>
+</div>
+<a class="inline-flex items-center gap-1 px-3 py-2 rounded-lg bg-primary-container text-on-primary-container hover:bg-primary font-label-md text-label-md shadow-sm transition-colors active:scale-95" href="browse?page=2">
+<span>Next</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</a>
+</nav>
+</div>
+<script>
+  // Interactive UI enhancement for genre selection & sort transitions
+  document.addEventListener('DOMContentLoaded', () => {
+    const genreButtons = document.querySelectorAll('.genre-pill');
+    genreButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        genreButtons.forEach(b => {
+          b.className = 'genre-pill shrink-0 px-3.5 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant font-label-md text-label-md hover:bg-surface-container transition-colors';
+        });
+        btn.className = 'genre-pill shrink-0 px-3.5 py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm transition-colors';
+      });
+    });
+
+    const sortSelect = document.getElementById('sortSelect');
+    if (sortSelect) {
+      sortSelect.addEventListener('change', (e) => {
+        const form = document.querySelector('form');
+        if (form) {
+          // Supports instant server dispatch simulation
+          console.info('Catalog re-sorted by:', e.target.value);
+        }
+      });
+    }
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/95 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.04)]" data-active-classes="text-primary-container font-semibold"><div class="h-16 px-gutter-mobile grid grid-cols-4 items-center justify-items-center"><a class="flex flex-col items-center justify-center w-full h-full min-h-[44px] min-w-[44px] gap-0.5 text-on-surface-variant hover:text-primary transition-colors" data-path="home" href="#"><span class="material-symbols-outlined text-[24px]">menu_book</span><span class="font-label-sm text-label-sm tracking-normal">Home</span></a><a aria-current="page" class="flex flex-col items-center justify-center w-full h-full min-h-[44px] min-w-[44px] gap-0.5 transition-colors text-primary-container font-semibold" data-path="browse" href="#"><span class="material-symbols-outlined text-[24px]">explore</span><span class="font-label-sm text-label-sm tracking-normal">Browse</span></a><a class="flex flex-col items-center justify-center w-full h-full min-h-[44px] min-w-[44px] gap-0.5 text-on-surface-variant hover:text-primary transition-colors" data-path="top-rated" href="#"><span class="material-symbols-outlined text-[24px]">hotel_class</span><span class="font-label-sm text-label-sm tracking-normal">Top Rated</span></a><a class="flex flex-col items-center justify-center w-full h-full min-h-[44px] min-w-[44px] gap-0.5 text-on-surface-variant hover:text-primary transition-colors" data-path="account" href="#"><span class="material-symbols-outlined text-[24px]">account_circle</span><span class="font-label-sm text-label-sm tracking-normal">Account</span></a></div></nav></body></html>

@@ -1,0 +1,6 @@
+{
+  "name": "BookReview - Online Book Review System",
+  "description": "A modern, responsive Online Book Review System for discovering, reviewing, and curating books, featuring student and faculty reviews, admin management, and complete Advanced Java JSP/Servlet architecture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
